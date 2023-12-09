@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: Helvetica;
+    color: rgb(219, 207, 198);
+    font-size: 22px;
+    opacity: 0.9;
+}
+header{
+    border-bottom: 1px solid seashell;
+    height: 70px;
+}
+.logo img{
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline;
+    line-height: 80px;
+    float: left;
+    opacity: 0.8;
+}
+div ul{
+    width: 400px;
+    float: right;
+    margin-top: 22px;
+    margin-right: 50px;
+}
+div ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+div ul li a{
+    text-align: center;
+    text-decoration: underline;
+}
+div.nav2{
+    border: 1px solid black;
+    height: 700px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-image: url('./img/img-mission-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}
+div.nav3{
+    background-color: black;
+    margin: 300px auto;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+}
+.container{
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    opacity: 0.6;
+
+}
+.row{
+    display: inline-flex;
+    min-height: 200px;
+    flex-wrap: wrap;
+   
+}
+.block{
+    width: 300px;
+    height: 250px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 30px 10px;
+    
+}
+.row1{
+    justify-content: space-around;
+    padding: 20px;
+}
+.row2{
+    justify-content: space-around;
+    padding: 20px;
+}
+.block1{
+    background-image: url('./img/img-berryblitz.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.block2{
+    background-image: url('./img/img-spiced-rum.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.block3{
+    background-image: url('./img/img-donut.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.block4{
+    background-image: url('./img/img-myrtle-ave.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.block5{
+    background-image: url('./img/img-bedford-bizarre.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.text1{
+    display: inline-block;
+    margin-top: 187px;
+    margin-left: 12px;
+}
+.text2{
+    display: inline-block;
+    margin-top: 187px;
+    margin-left: 28px;
+}
+.text3{
+    display: inline-block;
+    margin-top: 187px;
+    margin-left: 26px;
+}
+.text4{
+    display: inline-block;
+    margin-top: 187px;
+    margin-left: 35px;
+}
+.text5{
+    display: inline-block;
+    margin-top: 189px;
+    margin-left: 9px;
+}
+.container h2,h4{
+    text-align: center;
+    line-height: 55px;
+}
+div.nav4{
+    border: 1px solid black;
+    height: 1000px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-image: url('./img/img-locations-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    opacity: 0.6;
+}
+div.container1{
+    height: 900px;
+    margin: 25px 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+   
+div.block6{
+    width: 300px;
+    height: 280px;
+    background-color: black;
+    margin: 5px 5px;
+    flex-shrink: 3;
+
+}
+.block6 h3,h4{
+    text-align: center;
+    line-height: 60px;
+} 
+.block6 h3{
+    font-size: 33px;
+}
+.block6 h4{
+    font-size: 18px;
+}
+.nav4 h2{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 20px;
+    color: seashell;
+}
